@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- connects to the stylesheets -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- connect to a Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/d24640510b.js" crossorigin="anonymous"></script>
+  <title>About Me</title>
+</head>
+
+<body class="about-body">
+    <a class="skip" href="#mainstuff">Skip to Main Content</a>
+    <header>
+        <nav>
+            <div class="head">
+                <img class="logo" src="images/logo.svg" alt="logo">
+            <ul>
+                <li><a class="home active" href="index.html">Home</a></li>
+                <li><a class="me" href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="mainstuff">
+        <div class="about">
+            <img src="images/me.JPG" width="200" alt="me">
+            <div class="me">
+                <h3>Thanks for stopping by! <i class="fa-regular fa-face-smile-wink"></i></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing vitae proin sagittis nisl. Sit amet risus nullam eget felis eget nunc.
+
+                    Felis bibendum ut tristique et egestas. Urna condimentum mattis pellentesque id nibh tortor. Massa id neque aliquam vestibulum morbi blandit. Pulvinar neque laoreet suspendisse interdum. Iaculis at erat pellentesque adipiscing commodo elit at imperdiet.</p>
+            </div>
+        </div>
+        <div class="video-container">
+        <figure>
+        <iframe class="video" src="https://player.vimeo.com/video/627518400?h=71240e959b" width="1280" height="1182" 
+        frameborder="0" allow="autoplay; fullscreen" allowfullscreen aria-hidden="true">Sky's introduction</iframe>
+        <!-- <figcaption>Sky's animated introduction</figcaption> -->
+        </figure>
+        </div>
+        <h3>Contact</h3>
+        <div class="container2">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your Email">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        <footer>
+            <div class="footer">
+                <div class="paragraph">
+                    <p>Copyrights 2023 <i class="fa-regular fa-copyright"></i>  Sky Lu All rights reserved</p>
+                </div>
+                <div class="social">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+        </footer>
+    </main>
+
