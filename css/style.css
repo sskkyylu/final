@@ -400,12 +400,19 @@ h3{
     margin-top: 20px;
   }
 
-  #play-btn, #pause-btn {
+#play-btn, #pause-btn {
     font-size: 30px;
     color: #333;
     margin: 0 10px;
     cursor: pointer;
+    text-transform: uppercase;
+    color: #ffffff;
   }
+/* #play-btn, #pause-btn i{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    margin-top: 5px;
+  } */
 
   #pause-btn {
     display: none;
@@ -438,7 +445,7 @@ figcaption{
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
-    text-align: center;
+    text-align: ce;
 }
 
 .video{
